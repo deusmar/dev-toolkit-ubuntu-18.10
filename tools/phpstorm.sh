@@ -5,9 +5,7 @@ phpstorm(){
     sudo mkdir ~/phpstorm;
     cd ~/phpstorm;
     sudo rm -rf *.tar.gz ;
-
-    # @todo buscar solução para implementar o download da versão atual sem a necessidade da troca do link.
-    sudo wget https://download.jetbrains.com/webide/PhpStorm-2018.2.5.tar.gz;
-    sudo tar -zxvf PhpStorm-2018.2.5.tar.gz;
+    sudo wget -O PhpStorm.tar.gz 'https://download.jetbrains.com/product?code=PS&latest&distribution=linux'
+    sudo tar -zxvf PhpStorm.tar.gz;
     sudo chmod -Rv 777 ~/phpstorm;
 }
