@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-java.sh(){
+java(){
     blue "Instalação do Java Oracle";
     sudo add-apt-repository ppa:webupd8team/java -y;
     sudo apt-get update;

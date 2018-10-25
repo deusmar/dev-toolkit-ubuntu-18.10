@@ -5,3 +5,4 @@
 . tools/npm.sh
 . tools/sublime.sh
 . tools/vscode.sh
+. tools/editors.sh

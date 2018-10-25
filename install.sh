@@ -9,4 +9,12 @@
 # import tools
 . tools/import.sh
 
-base;
+# Instalação de programas essenciais;
+#base;
+#java;
+#chrome;
+
+# Instalação de ferramentas;
+editors;
+#phpstorm;
+
